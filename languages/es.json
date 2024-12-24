@@ -13,7 +13,38 @@
       "disabled": "Desactivado",
       "maybe-reload": "Algunos ajustes podrían necesitar una recarga.",
       "secret": "Secreto",
-      "large-chatlog-warning": "Debido a un registro de chat largo, algunos ajustes se aplicarán con la siguiente recarga."
+      "large-chatlog-warning": "Debido a un registro de chat largo, algunos ajustes se aplicarán con la siguiente recarga.",
+      "colors": {
+        "brown": "Marrón",
+        "purple": "Púrpura",
+        "red": "Rojo",
+        "blue": "Azul",
+        "green": "Verde",
+        "black": "Negro",
+        "player": "Color del jugador"
+      },
+      "prefer-light": "Preferir claro",
+      "prefer-dark": "Preferir oscuro",
+      "crb": "Pf2e reglas básicas",
+      "bg3": "Baldur's Gate 3 (Original)",
+      "foundry2": "Foundry 2 (Original)",
+      "discord": "Discord (Original)",
+      "no-theme": "Sin tema",
+      "opaque": "Opaco",
+      "alliance": "Oposición oscuro",
+      "gm-vs-players": "DJ oscuro",
+      "bg3-brown": "Baldur's Gate 3 (Marrón)",
+      "bg3-blue": "Baldur's Gate 3 (Azul)",
+      "discord-light": "Discord (Claro)",
+      "discord-dark": "Discord (Oscuro)",
+      "dnd5e2-light": "D&D 5e (Claro)",
+      "dnd5e2-dark": "D&D 5e (Oscuro)",
+      "glass": "Cristal",
+      "crb-light": "Pf2e reglas básicas (Claro)",
+      "crb-dark": "Pf2e reglas básicas (Oscuro)",
+      "custom-dark": "⚠️ Hazlo tú mismo (Oscuro) 👷",
+      "custom": "⚠️ Hazlo tú mismo 👷",
+      "custom-light": "⚠️ Hazlo tú mismo (Claro) 👷"
     },
     "settings": {
       "reset-changes": "Reiniciar cambios",
@@ -89,6 +120,34 @@
         "enable-dark-theme-journals": {
           "hint": "No afecta a los temas de los diarios premium",
           "name": "¿Activar el tema oscuro para los diarios?"
+        },
+        "app-theme": {
+          "name": "Tema del interfaz",
+          "hint": "Se aplica a elementos de la interfaz de usuario como controles, navegación, barra lateral y módulos de estilo flotante"
+        },
+        "window-app-theme": {
+          "name": "Tema de la hoja",
+          "hint": "Se pone a aplicaciones de estilo de ventana"
+        },
+        "chat-message-header-style": {
+          "hint": "Sólo se aplica a temas Pf2e reglas básicas",
+          "name": "Tema del encabezado del mensaje de chat"
+        },
+        "border-radius": {
+          "name": "Redondez",
+          "hint": "(predeterminado: 3px) Cambia el grado de redondez en muchos elementos de la interfaz de usuario"
+        },
+        "chat-message-standard-theme": {
+          "name": "Tema del mensaje de chat (estándar)",
+          "hint": "Se aplica a mensajes de oradores que no pertenecen a la alianza 'opositora'"
+        },
+        "chat-message-opposition-theme": {
+          "name": "Tema del mensaje de chat (oposición)",
+          "hint": "Se aplica a mensajes de oradores que pertenecen a la alianza 'opositora'"
+        },
+        "sheet-theme-color": {
+          "hint": "Se aplica a hojas de personajes de jugadores y vehículos",
+          "name": "Color del tema de la hoja"
         }
       },
       "avatar": {
@@ -238,7 +297,7 @@
         "label": "Configurar justes misceláneos",
         "enable-debug-mode": {
           "name": "¿Activar modo de depuración?",
-          "hint": "Agrega botones para conmutar Dorako UI y el tema oscuro en las ventanas"
+          "hint": "Agrega botones para cambiar rápidamente el tema de la hoja"
         },
         "send-to-chat": {
           "name": "¿Agregar el botón 'Send' a la cabecera de la ventana?",
@@ -266,8 +325,8 @@
         "name": "Ajustes de módulos externos",
         "hint": "Ajusta como otros módulos se ven afectados por Dorako UI",
         "colorize-idle-hud": {
-          "name": "¿Colorear PF2e Interactive Token Tooltip?",
-          "hint": "Aplica un tema con color a los iconos en la ventana principal del módulo"
+          "name": "¿Colorear PF2e HUD?",
+          "hint": "Aplica un tema con color a los iconos en la ventana principal del módulo y el HUD persistente"
         }
       }
     }
